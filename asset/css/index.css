@@ -4,12 +4,13 @@
   border: 0;
 }
 :root {
-  --fisrt-color: #79ac78;
+  --first-color: #79ac78;
   --second-color: #9e9e9f;
   --third-color: #8ea7e9;
+  --quatrieme-couleur : #618264;
 }
 html {
-  font-family: "poppins", "sans-serif";
+  font-family: "IBM plex sans hebrew";
 }
 body {
   overflow-x: hidden;
@@ -31,40 +32,104 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-h1 {
-  border-left: 5rem solid green;
-  border-right: 5rem solid green;
-  height: 1rem;
-  width: 8rem;
-  color: green;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   writing-mode: vertical-rl;
-  text-orientation: sideways-right;
+  text-orientation: sideways;
+  gap: 10rem;
+  justify-items: start;
+  word-spacing: 10px;
+  
+}
+.gros-titre > .bordure1{
+  border-left: 0.5rem solid var(--quatrieme-couleur);
+  height: 4rem;
+}
+.gros-titre > .bordure2{
+  border-left: 0.5rem solid var(--quatrieme-couleur);
+  height: 4rem;
+  
+
+}
+
+h1 {
+  
+  height: 1rem;
+  color: var(--quatrieme-couleur);
+  text-transform: uppercase;
   font-size: 20px;
+  word-spacing: 10px;
+  text-orientation: sideways;
+
 }
-.esp-photo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
+
+
+img {
   width: 100%;
-  padding-top: 3rem;
+  
 }
-images {
-  width: 40%;
+
+.images{
+  display: flex;
+  flex-direction: column;
+
 }
 p {
   color: var(--first-color);
   line-height: 1.5;
+  width: 100%;
+
 }
 h5 {
   vertical-align: middle;
   display: inline-block;
   font-size: 24px;
+  width: 100%;
+
 }
+.vis_fem_afriq{
+  flex:1;
+  width: 200px;
+
+}
+.esp-photo {
+  display: flex;
+  gap: 5rem;
+  width: auto;
+  height: 472px;
+  padding-top: 125px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+footer{
+  background-color: var(--first-color);
+  margin-top: 125px;
+
+}
+.logo {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.instagram{
+  width: 30px;
+  height: 30px;
+  padding-bottom: 50px ;
+
+}
+.canal2{
+  width: 372px;
+  height: 213px;
+  top: 5837px;
+  left: 581px;
+
+
+}
+.logo_canal2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
